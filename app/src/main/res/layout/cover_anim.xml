@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Created by Suyono on 4/11/2015. -->
+
+<LinearLayout
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingBottom="10.0dip">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="170dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/pic0"
+            android:scaleType="centerCrop"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="43dp"
+            android:src="@drawable/icon" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:text="Book Style View" android:textSize="25.0dip"
+            android:textColor="#ffffff"
+            android:textStyle="italic"
+            android:gravity="top|center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/hider"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:gravity="bottom|center"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:text="facebook.com/suyonoion"
+            android:gravity="center_horizontal"
+            android:textColor="#29000000"
+            android:textColorLink="#ffaec1ff"
+            android:autoLink="all"
+            android:paddingTop="20.0dip" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:text="Android Development Tips , Guide"
+            android:gravity="center_horizontal"
+            android:textColor="#ff000000" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:text="Tricks, Tools And Much More"
+            android:gravity="center_horizontal"
+            android:textColor="#ff000000" />
+
+    </LinearLayout>
+
+</LinearLayout>

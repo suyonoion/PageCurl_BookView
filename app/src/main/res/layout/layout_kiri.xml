@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/layout_kiri"
+    android:background="@drawable/paper_right"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingRight="30dp"
+    android:orientation="vertical"
+    android:gravity="center">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="40dp">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/putih_logo"
+            android:paddingLeft="70dp" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/putih_text_belakang"
+            android:paddingLeft="70dp" />
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/text_maaad2"
+            android:paddingLeft="70dp" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#32b3e2">
+
+    <com.suyonoion.pagecurl.BudayakanBaca
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/HAJAR_HArus_belaJAR">
+    </com.suyonoion.pagecurl.BudayakanBaca>
+
+</LinearLayout>
