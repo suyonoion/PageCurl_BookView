@@ -1,7 +1,7 @@
 # PageCurl_BookView
 Page Curl like a book.
 
-Demo : https://raw.githubusercontent.com/suyonoion/EasyViewPagerUI_v1.0_Beta/master/app/ss/com.maaadgroup.viewpagergb.apk
+Demo : https://raw.githubusercontent.com/suyonoion/PageCurl_BookView/master/app/app-release.apk
 
 ScreenShoot 1 :
 
